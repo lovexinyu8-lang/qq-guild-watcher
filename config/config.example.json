@@ -1,11 +1,13 @@
 {
   "poll_interval": 45,
   "request_timeout": 8,
-  "global_keywords": [],
+  "global_keywords": [
+    "搭子"
+  ],
   "channels": [
     {
-      "name": "示例频道",
-      "url": "https://pd.qq.com/g/your_guild_id",
+      "name": "西南大学论坛",
+      "url": "https://pd.qq.com/g/tiansheng023",
       "enabled": true,
       "custom_keywords": []
     }

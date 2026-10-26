@@ -70,15 +70,15 @@ def run_test_notification(notif_manager: NotificationManager):
     print("=" * 64)
     demo_post = {
         'id': 'test_demo_999',
-        'channel_name': '示例频道',
-        'sub_channel': '默认板块',
-        'author': 'WatcherBot',
+        'channel_name': '西南大学论坛',
+        'sub_channel': '校园生活',
+        'author': '自习小能手',
         'datePublished': datetime.datetime.now().isoformat(),
-        'headline': '【测试提醒】QQ Guild Watcher 核心调度与通知链路正常',
-        'full_text': '这是一条用于验证 Windows 居中确认框与原帖跳转联动的模拟测试消息。点击【是】可在浏览器打开链接，点击【否】关闭。',
-        'url': 'https://pd.qq.com/'
+        'headline': '【求搭子】周末有没有一起去图书馆或北温泉刷题的自习搭子？',
+        'full_text': '坐标楠园，平时一个人自习容易玩手机摸鱼，想蹲一个研友/期末自习搭子！男女不限，大家互相监督打卡打气，一起冲绩点！',
+        'url': 'https://pd.qq.com/g/tiansheng023'
     }
-    notif_manager.dispatch(['测试关键词'], demo_post, block=True)
+    notif_manager.dispatch(['搭子'], demo_post, block=True)
     print("\n[测试模式] 对话框交互完成，自检通过！")
 
 
