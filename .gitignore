@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# 个人私密数据与已读历史
+config/config.json
+data/
+*.cache
+seen_posts.json
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp

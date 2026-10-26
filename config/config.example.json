@@ -1,0 +1,42 @@
+{
+  "poll_interval": 45,
+  "request_timeout": 8,
+  "global_keywords": [],
+  "channels": [
+    {
+      "name": "示例频道",
+      "url": "https://pd.qq.com/g/your_guild_id",
+      "enabled": true,
+      "custom_keywords": []
+    }
+  ],
+  "notifications": {
+    "modal_dialog": {
+      "enabled": true
+    },
+    "desktop_popup": {
+      "enabled": false,
+      "auto_close_seconds": 15
+    },
+    "sound": {
+      "enabled": true
+    },
+    "bark": {
+      "enabled": false,
+      "server_url": "https://api.day.app",
+      "device_key": ""
+    },
+    "feishu_webhook": {
+      "enabled": false,
+      "webhook_url": ""
+    },
+    "dingtalk_webhook": {
+      "enabled": false,
+      "webhook_url": ""
+    },
+    "pushplus": {
+      "enabled": false,
+      "token": ""
+    }
+  }
+}
